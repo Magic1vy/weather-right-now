@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+     <video autoplay muted loop id="bg" playsinline>
+        <source src="https://cdn.glitch.global/cc5a8b49-c063-4097-8d58-0669e79d80b3/Aerial%20.mp4?v=1658636532999"> 
+    </div>
+<div id="container">
+    <div id="heading">
+        <h1>What is the weather right now?</h1>
+    </div>
+        <div id="header">
+            <input type="text" spellcheck="false" id="input" placeholder="Please enter city...">
+        </div>
+
+        <div id="where-when">
+            <p id="city"></p>
+            <p id="date"></p>
+        </div>
+
+        <div id="now">
+            <p id="temperature"></p>
+            <p id="feelsLike"></p>
+            <p id="conditiont"></p>
+            <p id="variation"></p>
+            <p id="humidity"></p>
+        </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
